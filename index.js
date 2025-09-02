@@ -3,9 +3,9 @@ const app = express();
 const port = 3000;
 
 app.get('/', (req, res) => {
-  res.send('Willkommen beim Versionskontroll-Tool!');
+  res.send('Welcome to the version control tool!');
 });
 
 app.listen(port, () => {
-  console.log(`Beispiel-App hört auf http://localhost:${port}`);
+  console.log(`Example app listening at http://localhost:${port}`);
 });
